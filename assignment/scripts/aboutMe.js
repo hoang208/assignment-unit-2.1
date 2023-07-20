@@ -65,15 +65,10 @@ console.log("My name is " + fullName + ", and I think " + luckyNumber + " is a w
 let adventurous = true;
 let food = "curry";
 let pets = 0;
-let friendsPets = 1;
+let friendsPets = 3;
 pets = pets +2 ;
 const allowedPets = 2
-if (adventurous = true) {
-    console.log("Adventures are great!");
-}
-else {
-    console.log("How about we stay home");
-}
+
 if (adventurous === true && luckyNumber === 2) {
     console.log("Roll the dice!")
 }
@@ -86,3 +81,25 @@ else if (pets = allowedPets) {
 else {
     console.log("Oh no, I have too many pets!")
 }
+let mostPets;
+if (pets >= friendsPets) {
+    mostPets = pets
+}
+else {
+    mostPets = friendsPets
+}
+console.log (mostPets)
+switch (luckyNumber) {
+    case 1:
+        console.log("First is the worst");
+        break;
+    case 2:
+        console.log("Second is the best");
+        break;
+    case 3:
+        console.log("Third is the one with the polka dot dress")
+        break;
+    default:
+        console.log("Luck is what happens when preparation meets opportunity")
+}
+(adventurous === true) ? console.log("Adventures are great!") : console.log("How about we stay home");
