@@ -69,13 +69,19 @@ let friendsPets = 3;
 pets = pets +2 ;
 const allowedPets = 2
 
+if (adventurous === true) {
+    console.log("Adventures are great!")
+} else {
+    console.log("How about we stay home?")
+}
+
 if (adventurous === true && luckyNumber === 2) {
     console.log("Roll the dice!")
 }
 if (pets < allowedPets) {
     console.log("I can have more pets!");
 }
-else if (pets = allowedPets) {
+else if (pets === allowedPets) {
     console.log("I have enough pets");
 }
 else {
